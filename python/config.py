@@ -9,5 +9,6 @@ DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',  # Use a less-privileged user in production!
     'password': '', # <-- CHANGE THIS
-    'database': 'buildwithdata_db'
+    'database': 'buildwithdata_db',
+    'ssl_disabled': True
 }
